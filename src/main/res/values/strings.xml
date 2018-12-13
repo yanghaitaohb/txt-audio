@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">文字播放</string>
+    <string-array name="test_array">
+        <item>教学模式</item>
+        <item>XX模式</item>
+        <item>XX模式</item>
+    </string-array>
+</resources>
