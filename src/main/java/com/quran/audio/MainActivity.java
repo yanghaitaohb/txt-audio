@@ -22,6 +22,7 @@ import com.quran.audio.util.AudioParam;
 import com.quran.audio.util.AudioPlayer;
 import com.quran.audio.util.PlayState;
 import com.sinovoice.hcicloudsdk.common.HciErrorCode;
+import com.sinovoice.hcicloudsdk.common.utils.Md5Util;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -89,7 +90,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
                     return;
                 }
 //                synth(str);
-                long name = System.currentTimeMillis();
+                String name = Md5Util.MD5(str);
                 synth(str, name + "");
                 break;
         }
