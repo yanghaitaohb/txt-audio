@@ -107,12 +107,12 @@ public class HciCloudSysHelper {
         initparam.addParam(InitParam.PARAM_KEY_CLOUD_URL, "http://api.hcicloud.com:8888");
 
         // 开发者Key，此项必填，由捷通华声提供 //06fe9732b1d27cd15b17349fa35249c9
-        initparam.addParam(InitParam.PARAM_KEY_DEVELOPER_KEY, "5f02c22fd9f8f33771ba313a62949af6");//公司
-//        initparam.addParam(InitParam.PARAM_KEY_DEVELOPER_KEY, "06fe9732b1d27cd15b17349fa35249c9");
+//        initparam.addParam(InitParam.PARAM_KEY_DEVELOPER_KEY, "5f02c22fd9f8f33771ba313a62949af6");//公司
+        initparam.addParam(InitParam.PARAM_KEY_DEVELOPER_KEY, "06fe9732b1d27cd15b17349fa35249c9");
 
         // 应用Key，此项必填，由捷通华声提供 //345d54ab
-        initparam.addParam(InitParam.PARAM_KEY_APP_KEY, "485d544d");//公司
-//        initparam.addParam(InitParam.PARAM_KEY_APP_KEY, "345d54ab");
+//        initparam.addParam(InitParam.PARAM_KEY_APP_KEY, "485d544d");//公司
+        initparam.addParam(InitParam.PARAM_KEY_APP_KEY, "345d54ab");
 
         // 配置日志参数
         String sdcardState = Environment.getExternalStorageState();
